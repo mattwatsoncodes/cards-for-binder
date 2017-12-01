@@ -1,0 +1,76 @@
+/* ==========================================================================
+   PLUGIN ADMIN EDITOR SCSS
+   ========================================================================== */
+/**
+ * CSS for the editor.
+ */
+/* ==========================================================================
+   # Binder Document Card
+   ========================================================================== */
+.c-binder-card {
+  color: #333;
+  border: 1px solid #333;
+  margin-bottom: 1em; }
+  .c-binder-card .o-block__img {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  .c-binder-card .o-block__body {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em; }
+  .c-binder-card .c-binder-card__title {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 32px; }
+  .c-binder-card .c-binder-card__excerpt {
+    max-width: 900px; }
+  .c-binder-card .c-binder-card__meta {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+    .c-binder-card .c-binder-card__meta .c-binder-card__meta-item {
+      color: #666;
+      margin: 0px;
+      padding: 0 0 0.3em 0;
+      list-style: none; }
+      .c-binder-card .c-binder-card__meta .c-binder-card__meta-item .fa {
+        width: 20px; }
+  .c-binder-card .c-binder-card__cta {
+    text-align: right; }
+  .c-binder-card .c-btn {
+    border: 1px solid #666;
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 1em; }
+    .c-binder-card .c-btn:hover {
+      border: 1px solid #ccc;
+      color: #ccc; }
+
+.o-block.c-binder-card .o-block__img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.o-block.c-binder-card .o-block__body {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em; }
+
+.o-media.c-binder-card .o-media__img {
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 1em;
+  border: 1px solid #666; }
+
+.o-media.c-binder-card .o-media__body {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em; }
+
+/*# sourceMappingURL=plugin-admin-editor.css.map */
